@@ -1,0 +1,153 @@
+h1, h2, h3, p, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #1e0325;
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  background: #ccc8c8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #3e3e3e;
+  color: #c2bebe;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #252729;
+}
+
+#resume-display {
+  background: #ccc9c9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#resume-display h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#resume-display h3 {
+  color: #0e0993;
+  margin-bottom: 10px;
+}
+
+#resume-display p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+#resume-display p b {
+  color: #333;
+
+
+@media (min-width: 600px) {
+  form {
+    padding: 30px;
+  }
+
+  input[type="text"], textarea {
+    font-size: 1.1em;
+  }
+
+  button {
+    font-size: 1.1em;
+  }
+}
+
+
+@media (min-width: 768px) {
+  form {
+    padding: 40px;
+  }
+
+  input[type="text"], textarea {
+    font-size: 1.2em;
+    background-color: #868484;
+  }
+
+  button {
+    font-size: 1.2em;
+  }
+}
+
+
+@media (min-width: 992px) {
+  form {
+    padding: 50px;
+  }
+
+  input[type="text"], textarea {
+    font-size: 1.2em;
+  }
+
+  button {
+    font-size: 1.2em;}
+  }
+
+  #resume-display {
+    max-width: 1000px;
+  }
+}
